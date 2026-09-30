@@ -106,7 +106,7 @@ footer{position:relative;z-index:1;text-align:center;padding:2rem 1rem;color:var
 <h1 data-i="greeting">Hi, I'm <span>Geanluis Lorenzo</span></h1>
 <h3>Software Developer | SQL Developer | Interpreter</h3>
 <p data-i="description"></p>
-<a class="btn" id="cv" href="https://geanluisgl.github.io/gy/Img/Geanluis_Lorenzo_CV.pdf" target="_blank" rel="noopener" data-i="cv">View / Download CV</a>
+<a class="btn" id="cv" href="https://geanluisgl.github.io/gy/img/Geanluis_Lorenzo_CV.pdf" target="_blank" rel="noopener" data-i="cv">View / Download CV</a>
 <div class="soc">
 <a href="https://github.com/GeanluisGL" target="_blank" rel="noopener" title="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.300.7-1.600-2.600-.3-5.300-1.300-5.300-5.700 0-1.300.5-2.300 1.200-3.100-.1-.3-.5-1.500.1-3.100 0 0 1-.3 3.200 1.200a11 11 0 0 1 5.800 0c2.200-1.500 3.200-1.200 3.200-1.200.6 1.600.2 2.800.1 3.100.8.800 1.200 1.800 1.200 3.100 0 4.400-2.700 5.400-5.300 5.700.4.400.8 1.100.8 2.200v3.200c0 .4.2.700.8.600A11.500 11.500 0 0 0 12 .5z"/></svg></a>
 <a href="https://www.linkedin.com/in/geanluis-lorenzo-rodr%C3%ADguez-2337b2152/" target="_blank" rel="noopener" title="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.800v1.600h.1c.5-1 1.800-2 3.800-2 4 0 4.800 2.600 4.800 6V21h-4v-5.200c0-1.300 0-2.900-1.800-2.900s-2 1.400-2 2.800V21h-4z"/></svg></a>
@@ -219,7 +219,7 @@ const K=()=>L?"es":"en";
 const tl=(a,id)=>$(id).innerHTML=a.map(e=>`<div class="card rv"><h4>${e.t[L]}</h4><h5>${e.s[L]}</h5>${e.d.map(p=>`<p>${p[L]}</p>`).join("")}</div>`).join("");
 function certs(){
  const list=C.filter(c=>flt==="all"||I[c[0]][1]===flt),tp=Math.max(1,Math.ceil(list.length/PER));page=Math.min(page,tp-1);
- $("#cg").innerHTML=list.slice(page*PER,page*PER+PER).map(c=>`<div class="card cert"><span class="bd ${c[2]?"":"pr"}">${c[2]?c[1]:T[K()].proc}</span><h3>${c[3+L]}</h3><p class="is">${I[c[0]][0]}</p>${c[2]?`<a href="https://geanluisgl.github.io/about/Img/${c[2]}" target="_blank" rel="noopener">${T[K()].view} →</a>`:""}</div>`).join("");
+ $("#cg").innerHTML=list.slice(page*PER,page*PER+PER).map(c=>`<div class="card cert"><span class="bd ${c[2]?"":"pr"}">${c[2]?c[1]:T[K()].proc}</span><h3>${c[3+L]}</h3><p class="is">${I[c[0]][0]}</p>${c[2]?`<a href="https://geanluisgl.github.io/about/img/${c[2]}" target="_blank" rel="noopener">${T[K()].view} →</a>`:""}</div>`).join("");
  $("#pv").disabled=page===0;$("#nx").disabled=page>=tp-1;
 }
 function fl(){const k=["all","linkedin","neoris","capacitate","other"];$("#fl").innerHTML=k.map((x,i)=>`<button data-f="${x}" class="${x===flt?"on":""}">${T[K()].f[i]}</button>`).join("");$$("#fl button").forEach(b=>b.onclick=()=>{flt=b.dataset.f;page=0;fl();certs()})}
