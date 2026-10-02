@@ -14,7 +14,7 @@ const EDU=[
 const I={l:["LinkedIn","linkedin"],n:["Neoris Global Campus","neoris"],c:["Capacítate el Empleo","capacitate"],u:["Udemy","other"],x:["Cisco Networking Academy","other"]};
 const N="epamNeoris/";
 const C=[
-["l","2026",N+"Doc_W_IA.png","Automate with AI Certificate: Documentation and Efficient Processes | LinkedIn","Certificado Automatiza con IA: Documentación y procesos eficiente | LinkedIn"],
+["l","2026",N+"Doc_W_IA.png","Automate with AI: Documentation and Efficient Processes | LinkedIn","Automatiza con IA: Documentación y procesos eficiente | LinkedIn"],
 ["l","2026",N+"DevOps_Profetional.png","DevOps Professional Certificate by PagerDuty | LinkedIn","Certificado Profesional de DevOps: PagerDuty | LinkedIn"],
 ["l","2026",N+"DevOps_CDCI.png","DevOps Foundations: Continuous Delivery/Continuous Integration","Fundamentos de DevOps: CI/CD"],
 ["l","2026",N+"DevOps_IaC.png","DevOps Foundations: Infrastructure as Code","Fundamentos de DevOps: Infrastructure as Code"],
