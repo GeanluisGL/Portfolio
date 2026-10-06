@@ -8,8 +8,6 @@
 
 **Portafolio personal desarrollado con HTML, CSS y JavaScript**
 
-[Ver Demo](#) · [Reportar Bug](https://github.com/GeanluisGL/Portfolio/issues) · [Solicitar Feature](https://github.com/GeanluisGL/Portfolio/issues)
-
 </div>
 
 ---
