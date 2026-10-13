@@ -14,6 +14,7 @@ const EDU=[
 const I={l:["LinkedIn","linkedin"],n:["Neoris Global Campus","neoris"],c:["Capacítate el Empleo","capacitate"],u:["Udemy","other"],x:["Cisco Networking Academy","other"]};
 const N="epamNeoris/";
 const C=[
+["l","2026",N+"Coch_leader.png","Coaching skills for leaders and managers | LinkedIn","Habilidades de coaching para líderes y gerentes | LinkedIn"],
 ["l","2026",N+"Doc_Empresa.png","How to document processes in your company | LinkedIn","Cómo documentar procesos en tu empresa | LinkedIn"],
 ["l","2026",N+"Red_Tecnica.png","Introduction to Technical Writing | LinkedIn","Introducción a la escritura técnica | LinkedIn"],
 ["l","2026",N+"Doc_W_IA.png","Automate with AI: Documentation and Efficient Processes | LinkedIn","Automatiza con IA: Documentación y procesos eficiente | LinkedIn"],
