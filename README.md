@@ -191,7 +191,4 @@ Este proyecto **no especifica una licencia**. Si deseas utilizarlo, por favor co
 <div align="center">
 
 ### ⭐ Si te gusta este proyecto, dale una estrella ⭐
-
-**Hecho con ❤️ por [GeanluisGL](https://github.com/GeanluisGL)**
-
 </div>
